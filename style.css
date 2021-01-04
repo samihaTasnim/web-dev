@@ -7,12 +7,30 @@ body {
   margin: 0;
 }
 
-.about {
+.about-me {
   width: 40%;
   padding: 30px;
-}
-.img-1 {
-  width: 100%;
-  height: 50%;
   float: left;
+}
+img {
+  width: 100%;
+}
+
+section {
+  height: 530px;
+}
+
+.top-banner {
+  background-image: url("images.jpg/top-banner.png");
+  background-repeat: no-repeat;
+}
+
+.hire-btn {
+  margin: 50px 0px;
+  padding: 11px 15px;
+  color: white;
+  background-image: linear-gradient(90deg, rgb(108, 136, 212), rgb(45, 45, 201));
+  text-decoration: none;
+  font-weight: 800;
+  border-radius: 6px;
 }
