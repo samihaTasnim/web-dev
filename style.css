@@ -1,4 +1,4 @@
-.author-name {
+.txt-highlight {
   color: rgb(52, 138, 219);
 }
 
@@ -7,9 +7,18 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
 .about-me {
   width: 40%;
-  padding: 30px;
+  padding-left: 2%;
+  margin-left: 5%;
   float: left;
 }
 img {
@@ -21,7 +30,7 @@ section {
 }
 
 .top-banner {
-  background-image: url("images.jpg/top-banner.png");
+  background-image: url("images/top-banner.png");
   background-repeat: no-repeat;
 }
 
@@ -33,4 +42,29 @@ section {
   text-decoration: none;
   font-weight: 800;
   border-radius: 6px;
+}
+
+.dream-area {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.tag {
+  margin-left: 20px;
+}
+
+.card {
+  box-shadow: 10px 10px 10px grey;
+  height: 50%;
+  border-left: 7px solid;
+  border-radius: 7px;
+  border-image: linear-gradient(45deg,rgb(99, 85, 124), rgb(243, 6, 243));
+  border-image-slice: 1;
+}
+
+.exp-info {
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
 }
